@@ -55,6 +55,7 @@ body {
 
 .header-image img {
     width: 100%;
+    display: block;
 }
 
 
@@ -81,16 +82,19 @@ body {
 .article {
     display: flex;
     width: 100%;
-    align-items: flex-start
+    /* align-items: flex-start; */
 }
 
 .right-side {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20%;
+
+
 }
 
 .cards {
+
     margin: 10%;
     width: 100%;
     padding: 5%;
@@ -101,6 +105,7 @@ body {
     display: flex;
     gap: 10px;
 }
+
 
 /* article secton end */
 
@@ -137,6 +142,7 @@ h3 {
     margin: 10px;
     color: black;
 }
+
 
 
 
@@ -190,6 +196,7 @@ h3 {
 
 
 
+
 }
 
 
@@ -214,6 +221,8 @@ h3 {
     .footer-info {
         margin-top: 400px;
     }
+
+
 
 
 }
