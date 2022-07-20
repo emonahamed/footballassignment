@@ -107,6 +107,12 @@ body {
 
 }
 
+.container-1 img {
+    width: 100%;
+}
+
+
+
 /*----------- article section end ----------*/
 
 
@@ -297,6 +303,10 @@ h3 {
     .button-34 {
         background-color: #FFE4C4;
 
+    }
+
+    .container-1 img {
+        width: 100%;
     }
 
 
